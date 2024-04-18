@@ -1,0 +1,23 @@
+.info-container {
+  display: flex;
+}
+
+.name {
+  color: red;
+  background-color: green;
+}
+
+.date {
+  color: white;
+  background-color: black;
+}
+
+.email {
+  color: purple;
+  background-color: yellow;
+}
+
+.password {
+  color: blue;
+  background-color: gray;
+}

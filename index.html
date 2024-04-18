@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>HTML + JS</title>
+    <link href="css/style.css" rel="stylesheet">
+  </head>
+  <body>
+    <form onsubmit="event.preventDefault()">
+      <input type="text" name="name" placeholder="Nome" id="name">
+      <input type="date" name="date" placeholder="Data" id="date">
+      <input type="email" name="email" placeholder="E-mail" id="email">
+      <input type="password" name="password" placeholder="Senha" id="password">
+      <br>
+      <button type="submit" onclick="createUser()">Cadastrar</button>
+    </form>
+    <div class="info-container">
+      <p class="name"></p>
+      <p class="date"></p>
+      <p class="email"></p>
+      <p class="password"></p>
+    </div>
+    <script src="./js/index.js">
+    </script>
+  </body>
+</html>
